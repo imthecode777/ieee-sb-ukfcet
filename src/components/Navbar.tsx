@@ -65,7 +65,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <a href="#home" className="flex items-center space-x-2 hover-lift">
-               <img src="./../../../../../public/logo.png" alt="IEEE SB UKFCET Logo" className="w-7 h-7 sm:w-9 sm:h-9 object-contain"/>
+               <img src="/logo.png" alt="IEEE SB UKFCET Logo" className="w-7 h-7 sm:w-9 sm:h-9 object-contain"/>
               <span className="text-xl sm:text-2xl font-bold text-ieee-blue">IEEE</span>
               <span className="text-xl sm:text-2xl font-bold text-ieee-teal">SB UKFCET</span>
               </a>
