@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between mb-12">
           <div className="mb-8 md:mb-0 md:w-1/3">
             <div className="flex items-center mb-4">
-              <img src="/logo.png" alt="IEEE SB UKFCET Logo" className="w-8 h-8 sm:w-10 sm:h-10 object-contain mr-1"/>
+              <img src="./logo.png" alt="IEEE SB UKFCET Logo" className="w-8 h-8 sm:w-10 sm:h-10 object-contain mr-1"/>
               <span className="text-2xl font-bold text-ieee-blue">IEEE</span>
               <span className="text-2xl font-bold text-ieee-teal ml-2">UKFCET</span>
             </div>
