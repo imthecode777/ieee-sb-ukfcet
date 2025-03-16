@@ -11,12 +11,12 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    mode === "development" && componentTagger(),
+    mode === 'development' && componentTagger(),
   ].filter(Boolean),
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "src"),
+      "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: mode === "production" ? "/ieee-sb-ukfcet/" : "/",
+  base: "/ieee-sb-ukfcet/",  // ✅ MUST match your GitHub repo name exactly
 }));
