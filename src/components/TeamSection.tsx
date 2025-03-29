@@ -11,36 +11,44 @@ interface TeamMember {
   email?: string;
 }
 
-const coreTeam: TeamMember[] = [
+const sbTeam: TeamMember[] = [
   {
     id: 1,
-    name: "Rahul Sharma",
+    name: "Jishnu Hari",
     role: "Chairperson",
-    imageUrl: "https://i.pinimg.com/736x/68/3d/8f/683d8f58c98a715130b1251a9d59d1b9.jpg",
+    imageUrl: "public/images/execom/jishnu.jpg",
     linkedIn: "#",
     email: "chair@ieeeukfcet.org"
   },
   {
     id: 2,
-    name: "Priya Patel",
+    name: "Archa R",
     role: "Vice Chairperson",
-    imageUrl: "https://i.pinimg.com/736x/68/3d/8f/683d8f58c98a715130b1251a9d59d1b9.jpg",
+    imageUrl: "public/images/execom/archa.jpg",
     linkedIn: "#",
     email: "vicechair@ieeeukfcet.org"
   },
   {
     id: 3,
-    name: "Ahmed Khan",
+    name: "Aparna S",
     role: "Secretary",
-    imageUrl: "https://i.pinimg.com/736x/68/3d/8f/683d8f58c98a715130b1251a9d59d1b9.jpg",
+    imageUrl: "public/images/execom/aparna.jpg",
     linkedIn: "#",
     email: "secretary@ieeeukfcet.org"
   },
   {
     id: 4,
-    name: "Meera Nair",
+    name: "Abel Sebastian",
+    role: "Vice Secretary",
+    imageUrl: "public/images/execom/abel.jpg",
+    linkedIn: "#",
+    email: "treasurer@ieeeukfcet.org"
+  },
+  {
+    id: 5,
+    name: "Abel Sebastian",
     role: "Treasurer",
-    imageUrl: "https://i.pinimg.com/736x/68/3d/8f/683d8f58c98a715130b1251a9d59d1b9.jpg",
+    imageUrl: "public/images/execom/abel.jpg",
     linkedIn: "#",
     email: "treasurer@ieeeukfcet.org"
   }
@@ -161,9 +169,9 @@ const TeamSection = () => {
         </div>
         
         <div className="mb-12 sm:mb-16">
-          <h3 className="text-2xl font-bold mb-6 sm:mb-8 animate-fade-in animation-delay-300">Core Team</h3>
+          <h3 className="text-2xl font-bold mb-6 sm:mb-8 animate-fade-in animation-delay-300">IEEE SB Team</h3>
           <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8">
-            {coreTeam.map((member, index) => (
+            {sbTeam.map((member, index) => (
               <TeamMemberCard key={member.id} member={member} index={index} />
             ))}
           </div>
