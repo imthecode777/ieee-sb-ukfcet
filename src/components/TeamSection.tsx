@@ -16,7 +16,7 @@ const sbTeam: TeamMember[] = [
     id: 1,
     name: "Jishnu Hari",
     role: "Chairperson",
-    imageUrl: "public/images/jishnu.jpg",
+    imageUrl: "images/jishnu.jpg",
     linkedIn: "#",
     email: "chair@ieeeukfcet.org"
   },
@@ -24,7 +24,7 @@ const sbTeam: TeamMember[] = [
     id: 2,
     name: "Archa R",
     role: "Vice Chairperson",
-    imageUrl: "public/images/archa.jpg",
+    imageUrl: "images/archa.jpg",
     linkedIn: "#",
     email: "vicechair@ieeeukfcet.org"
   },
@@ -32,7 +32,7 @@ const sbTeam: TeamMember[] = [
     id: 3,
     name: "Aparna S",
     role: "Secretary",
-    imageUrl: "public/images/aparna.jpg",
+    imageUrl: "images/aparna.jpg",
     linkedIn: "#",
     email: "secretary@ieeeukfcet.org"
   },
@@ -40,7 +40,7 @@ const sbTeam: TeamMember[] = [
     id: 4,
     name: "Abel Sebastian",
     role: "Vice Secretary",
-    imageUrl: "public/images/abel.jpg",
+    imageUrl: "images/abel.jpg",
     linkedIn: "#",
     email: "treasurer@ieeeukfcet.org"
   },
@@ -48,7 +48,7 @@ const sbTeam: TeamMember[] = [
     id: 5,
     name: "Abel Sebastian",
     role: "Treasurer",
-    imageUrl: "public/images/abel.jpg",
+    imageUrl: "images/abel.jpg",
     linkedIn: "#",
     email: "treasurer@ieeeukfcet.org"
   }
