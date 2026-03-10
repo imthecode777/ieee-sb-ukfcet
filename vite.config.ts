@@ -4,14 +4,18 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
+
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/ieee-sb-ukfcet/", // THIS MUST BE CORRECT
+
+  // Use environment variable for base path
+  base: process.env.VITE_BASE_PATH || "/ieee-sb-ukfcet/",
+
   server: {
-    host: "::",
+    host: true,
     port: 8080,
   },
 });
